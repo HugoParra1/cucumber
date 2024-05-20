@@ -29,7 +29,6 @@ public class StepDefinitions {
 
     @Then("I should get told i'ts {string}")
     public void i_should_get_told_i_ts(String string) {
-        // Write code here that turns the phrase above into concrete actions
         assertEquals(string, answer);
         // throw new io.cucumber.java.PendingException();
     }
