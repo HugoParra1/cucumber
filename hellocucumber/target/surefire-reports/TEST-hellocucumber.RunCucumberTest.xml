@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hellocucumber.RunCucumberTest" time="0.063" tests="8" errors="0" skipped="8" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hellocucumber.RunCucumberTest" time="0.133" tests="8" errors="0" skipped="6" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Hugo\AppData\Local\Temp\surefire5350678820307236524\surefirebooter2135120059874006141.jar C:\Users\Hugo\AppData\Local\Temp\surefire5350678820307236524 2024-05-21T17-38-49_844-jvmRun1 surefire4133232754606939770tmp surefire_08999334974372770239tmp"/>
+    <property name="sun.java.command" value="C:\Users\Hugo\AppData\Local\Temp\surefire4946594257280063109\surefirebooter5111425753136096498.jar C:\Users\Hugo\AppData\Local\Temp\surefire4946594257280063109 2024-05-21T17-45-32_435-jvmRun1 surefire7446521430073148776tmp surefire_02206625628795026535tmp"/>
     <property name="surefire.test.class.path" value="E:\cucumber\cucumber\hellocucumber\target\test-classes;E:\cucumber\cucumber\hellocucumber\target\classes;C:\Users\Hugo\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Hugo\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Hugo\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Hugo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Hugo\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Hugo\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Hugo\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Hugo\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Hugo\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Hugo\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Hugo\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Hugo\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Hugo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Hugo\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\Hugo\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Hugo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Hugo\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Hugo\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Hugo\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Hugo\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Hugo\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Hugo\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\Hugo\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Hugo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Hugo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Hugo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Hugo"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Hugo\AppData\Local\Temp\surefire5350678820307236524\surefirebooter2135120059874006141.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Hugo\AppData\Local\Temp\surefire4946594257280063109\surefirebooter5111425753136096498.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -46,14 +46,14 @@
     <property name="localRepository" value="C:\Users\Hugo\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Hugo\AppData\Local\Temp\"/>
-    <property name="cucumber.filter.tags" value="@Saturday2."/>
+    <property name="cucumber.filter.tags" value="@Friday2"/>
     <property name="java.version" value="1.8.0_202"/>
     <property name="user.dir" value="E:\cucumber\cucumber\hellocucumber"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Hugo\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\apache-maven-3.8.8\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Hugo\.console-ninja\.bin;C:\Users\Hugo\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\Hugo\AppData\Local\Programs\Python\Python312;C:\Users\Hugo\AppData\Local\Microsoft\WindowsApps;C:\Users\Hugo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hugo\AppData\Local\GitHubDesktop\bin;C:\Users\Hugo\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Hugo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Hugo\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\apache-maven-3.8.8\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Hugo\.console-ninja\.bin;C:\Users\Hugo\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\Hugo\AppData\Local\Programs\Python\Python312;C:\Users\Hugo\AppData\Local\Microsoft\WindowsApps;C:\Users\Hugo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hugo\AppData\Local\GitHubDesktop\bin;C:\Users\Hugo\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.202-b08"/>
@@ -62,27 +62,39 @@
     <property name="java.class.version" value="52.0"/>
   </properties>
   <testcase name="Example #1" classname="Examples" time="0">
-    <skipped message="&apos;cucumber.filter.tags=@Saturday2.&apos; did not match this scenario"/>
+    <skipped message="&apos;cucumber.filter.tags=@Friday2&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.063">
+    <system-out><![CDATA[
+@Friday @Friday2
+Scenario Outline: Today is or is not Friday &amp#27;[90m# hellocucumber/its_friday.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Saturday"&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.today_is(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask if it's &amp#27;[0m&amp#27;[32m&amp#27;[1m"Friday"&amp#27;[0m               &amp#27;[90m# hellocucumber.StepDefinitions.i_ask_if_it_s(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get told its &amp#27;[0m&amp#27;[32m&amp#27;[1m"No"&amp#27;[0m           &amp#27;[90m# hellocucumber.StepDefinitions.i_should_get_told_i_ts(java.lang.String)&amp#27;[0m
+]]></system-out>
   </testcase>
   <testcase name="Example #1" classname="Examples" time="0">
-    <skipped message="&apos;cucumber.filter.tags=@Saturday2.&apos; did not match this scenario"/>
+    <skipped message="&apos;cucumber.filter.tags=@Friday2&apos; did not match this scenario"/>
   </testcase>
   <testcase name="Example #1" classname="Examples" time="0">
-    <skipped message="&apos;cucumber.filter.tags=@Saturday2.&apos; did not match this scenario"/>
-  </testcase>
-  <testcase name="Example #1" classname="Examples" time="0">
-    <skipped message="&apos;cucumber.filter.tags=@Saturday2.&apos; did not match this scenario"/>
+    <skipped message="&apos;cucumber.filter.tags=@Friday2&apos; did not match this scenario"/>
   </testcase>
   <testcase name="Example #2" classname="Examples" time="0">
-    <skipped message="&apos;cucumber.filter.tags=@Saturday2.&apos; did not match this scenario"/>
+    <skipped message="&apos;cucumber.filter.tags=@Friday2&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+@Friday @Friday2
+Scenario Outline: Today is or is not Friday &amp#27;[90m# hellocucumber/its_friday.feature:18&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Anything else"&amp#27;[0m            &amp#27;[90m# hellocucumber.StepDefinitions.today_is(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask if it's &amp#27;[0m&amp#27;[32m&amp#27;[1m"Friday"&amp#27;[0m               &amp#27;[90m# hellocucumber.StepDefinitions.i_ask_if_it_s(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get told its &amp#27;[0m&amp#27;[32m&amp#27;[1m"No"&amp#27;[0m           &amp#27;[90m# hellocucumber.StepDefinitions.i_should_get_told_i_ts(java.lang.String)&amp#27;[0m
+]]></system-out>
   </testcase>
   <testcase name="Example #2" classname="Examples" time="0">
-    <skipped message="&apos;cucumber.filter.tags=@Saturday2.&apos; did not match this scenario"/>
+    <skipped message="&apos;cucumber.filter.tags=@Friday2&apos; did not match this scenario"/>
   </testcase>
   <testcase name="Example #2" classname="Examples" time="0">
-    <skipped message="&apos;cucumber.filter.tags=@Saturday2.&apos; did not match this scenario"/>
-  </testcase>
-  <testcase name="Example #2" classname="Examples" time="0">
-    <skipped message="&apos;cucumber.filter.tags=@Saturday2.&apos; did not match this scenario"/>
+    <skipped message="&apos;cucumber.filter.tags=@Friday2&apos; did not match this scenario"/>
   </testcase>
 </testsuite>
