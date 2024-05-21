@@ -5,21 +5,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;       
 
 @RunWith(Cucumber.class)
-@CucumberOptions(glue = { "hellocucumber" }, features = {"src/test/resources/hellocucumber"}, plugin = { "pretty", "json:target/resources/cucumber.json", "html:target/resources/cucumber.html" })    
+@CucumberOptions(glue = { "hellocucumber" }, features = {"src/test/resources/hellocucumber"}, plugin = { "pretty", "json:src/test/resources/reports/cucumber.json", "html:src/test/resources/reports/cucumber.html" })    
 public class RunCucumberTest {
 
 }
-// import org.junit.platform.suite.api.ConfigurationParameter;
-// import org.junit.platform.suite.api.IncludeEngines;
-// import org.junit.platform.suite.api.SelectClasspathResource;
-// import org.junit.platform.suite.api.Suite;
-
-// import static
-// io.cucumber.junit.platform.engine.Constants.PLUGIN_PROPERTY_NAME;
-
-// @Suite
-// @IncludeEngines("cucumber")
-// @SelectClasspathResource("hellocucumber")
-// @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "pretty")
-// public class RunCucumberTest {
-// }
