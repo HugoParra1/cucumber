@@ -136,4 +136,4 @@ Para ejecutar tests específicos basados en tags, utiliza:
 mvn test -Dcucumber.filter.tags="@Friday"
 ```
 
-Los reportes de las pruebas se generan en el directorio `surefire-reports`. Aquí puedes encontrar detalles sobre las pruebas ejecutadas, incluyendo cuáles pasaron y cuáles fallaron.
+Los reportes de las pruebas se generan en el directorio `Resources`. Aquí puedes encontrar detalles sobre las pruebas ejecutadas, incluyendo cuáles pasaron y cuáles fallaron.
