@@ -5,7 +5,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;       
 
 @RunWith(Cucumber.class)
-@CucumberOptions(glue = { "hellocucumber" }, features = {"src/test/resources/hellocucumber"}, plugin = { "pretty", "json:target/surefire-reports/cucumber.json", "html:target/surefire-reports/cucumber.html" })    
+@CucumberOptions(glue = { "hellocucumber" }, features = {"src/test/resources/hellocucumber"}, plugin = { "pretty", "json:target/resources/cucumber.json", "html:target/resources/cucumber.html" })    
 public class RunCucumberTest {
 
 }
